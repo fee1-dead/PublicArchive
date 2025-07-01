@@ -1,0 +1,154 @@
+@font-face {
+	font-family: 'JetBrains Mono', monospace;
+	src: url("JetBrainsMono-Medium.woff2") format("woff2");
+}
+html{
+	height: 100%;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: #263239;
+	border: solid 18px #ffffff;
+	min-height: 100%;
+	margin: 0;
+	box-sizing: border-box;
+}
+h1, h2{
+	text-align: center;
+	color: #ffffff;
+	font-family: 'JetBrains Mono', monospace;
+}
+h1{
+	font-size: 3em;
+	margin: 20px 0px 0px 0px;
+}
+h2{
+	margin: 10px;
+}
+
+div.preview svg {
+	display: block;
+	margin: 30px auto;
+}
+svg:nth-of-type(1) {
+    border: dashed 2px rgba(255,255,255,0.3);
+    padding: 5px;
+    border-radius: 10px;
+}
+.upload-container {
+	border-style: dashed;
+	border-radius: 10px;
+	border-width: 5px;
+	border-color: #bbb;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	margin: 0 30vw;
+	height: 25vh
+}
+.highlight {
+	border-color: #00bcd4;
+}
+.button {
+	background-color: #1dbcaf;
+	padding: 3vh 5vw;
+	margin: auto;
+}
+:focus {
+	outline: none;
+}
+input[type="file"]{
+	width: 150px;
+	height: 36px;
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	display: none;
+}
+form{
+	display: none;
+	text-align: center;
+}
+form input[type="number"]{
+	padding: 10px 10px;
+	border-radius: 4px;
+	border: none;
+	font-size: 1em;
+	display: inline-block;
+	margin: 5px;
+}
+.button{
+	text-align: center;
+	padding: 10px 15px;
+	background-color: #2bc7ba;
+	color: #ffffff;
+	border-radius: 4px;
+	font-size: 1em;
+	border: none;
+	display: inline-block;
+	cursor: pointer;
+}
+.file-button:hover{
+	background-color: #1dbcaf;
+}
+.file-button:active{
+	background-color: #1bb0a3;
+}
+.download-png{
+	font-size: 1.3em;
+	padding: 10px 45px;
+	background-color: #00bcd4;
+	text-decoration: none;
+	color: #ffffff;
+	border-radius:4px;
+	display: inline-block;
+}
+.download-png:hover{
+	background-color: #03a6bb;
+}
+.download-png:active{
+	background-color: #017c8c;
+}
+div.download-wrapper{
+	margin: 25px;
+	display: none;
+	text-align: center;
+}
+img{
+	display: none;
+}
+
+p.credits {
+	margin-top: 50px;
+    color: rgba(255, 255, 255, .8);
+    text-align: center;
+}
+p.credits a{
+	color: #2bc7ba;
+	text-decoration: none;
+	border-bottom: dashed 1px #2bc7ba;
+}
+p.credits a:hover{
+	border-bottom: none;
+}
+p.credits span{
+	color: #F26183;
+}
+
+p.promote {
+    color: rgba(255, 255, 255, .8);
+    text-align: center;
+}
+p.promote a{
+	color: #2bc7ba;
+	text-decoration: none;
+	border-bottom: dashed 1px #2bc7ba;
+	margin: 5px 10px;
+	display: inline-block;
+}
+p.promote a:hover{
+	border-bottom: none;
+}
+p.promote span{
+	color: #F26183;
+}
